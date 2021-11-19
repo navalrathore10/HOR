@@ -1,0 +1,117 @@
+.navbar{
+	box-shadow: inset 0 3px 10px goldenrod;
+	background-image: linear-gradient(#1f2f4f 0%,#212529 10%,#1f2f4f 100%);
+	position: fixed;	
+	width: 100%;
+	padding-top:3vh;
+	z-index: 99;
+}
+
+.titlehor{
+	font-size: x-large;
+	letter-spacing: 2px;
+}
+#cursive{
+	font-family:"Great Vibes",cursive;
+}
+.dropdown-menu{
+	background-image: linear-gradient(#1f2f4f 0%,#212529 10%,#1f2f4f 100%);
+}
+.dropdown-item{
+	color: floralwhite;
+}
+.sect {
+		height: 100vh;
+		width: 100;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+}
+
+.subsect {
+	box-shadow: inset 0 5px 20px goldenrod;
+	height: 50%;
+	width: 100%;
+	background-size: cover;
+	background-image: linear-gradient(#1f2f4f 0%,#212529 10%,#1f2f4f 100%);
+	display: inline-grid;
+}
+
+.sect1{
+	background-image: url("https://images.unsplash.com/photo-1578999935853-4ec5fa6c1f60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1422&q=80");
+}
+
+#subsect1{
+	display: grid;
+	position: absolute;
+	grid-template-columns: 70% 30%;
+}
+.sect2{
+	height: 100vh;
+	background-image: url("https://images.unsplash.com/photo-1605014093414-29b156556886?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80");
+}
+
+.subsect2{
+}
+.quote1{
+	color: floralwhite;
+	letter-spacing: 1px;
+	position: relative;
+	margin-top: 5vh;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	webkit‑text‑size‑adjust: 100%;
+}	
+.sidesect2{
+	display: block;
+}
+.ancbtn{
+	align-items: center;
+	cursor: pointer;
+	font-size: 40px;
+	background-image: linear-gradient(#1f2f4f 0%,#2d4574 50%,#1f2f4f 100%);
+	color: floralwhite;
+	font-family: "Rozha One",serif;
+	width: 250px;
+	height: 80px;
+	box-shadow: inset 0 0 10px goldenrod;
+}
+
+.midbtn{
+	align-items: center;
+	cursor: pointer;
+	font-size: 40px;
+	background-image: linear-gradient(#1f2f4f 0%,#2d4574 50%,#1f2f4f 100%);
+	color: floralwhite;
+	font-family: "Rozha One",serif;
+	width: 250px;
+	height: 80px;
+	box-shadow: inset 0 0 10px goldenrod;
+}
+.modbtn{
+	align-items: center;
+	cursor: pointer;
+	font-size: 40px;
+	background-image: linear-gradient(#1f2f4f 0%,#2d4574 50%,#1f2f4f 100%);
+	color: floralwhite;
+	font-family: "Rozha One",serif;
+	width: 250px;
+	height: 80px;
+	box-shadow: inset 0 0 10px goldenrod;
+}
+
+#stagesbtn{
+	margin-top: 4.5vh;
+	display: block;
+	width: 85%;
+	height:20%;
+	font-size: 4vw;
+}
+
+.footerdark{
+	box-shadow: inset 0 3px 10px goldenrod;
+	color: floralwhite;
+	background-image: linear-gradient(#1f2f4f 0%,#212529 10%,#1f2f4f 100%);
+	margin-top: 330px;
+	padding-left: 20px;
+}
