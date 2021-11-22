@@ -49,8 +49,7 @@
 
 #subsect1{
 	display: grid;
-	position: absolute;
-	grid-template-columns: 70% 30%;
+	grid-template-columns: 2fr 1fr;
 }
 .sect2{
 	height: 100vh;
@@ -60,16 +59,17 @@
 .subsect2{
 }
 .quote1{
+	word-spacing: 5px;
 	color: floralwhite;
 	letter-spacing: 1px;
 	position: relative;
 	margin-top: 5vh;
 	margin-left: 5vw;
 	margin-right: 5vw;
-	webkit‑text‑size‑adjust: 100%;
 }	
 
 .artline{
+	height: 24vh;
 	width: 69vw;
 	justify-content: center;
 }
@@ -124,7 +124,6 @@
 	box-shadow: inset 0 3px 10px goldenrod;
 	color: floralwhite;
 	background-image: linear-gradient(#1f2f4f 0%,#212529 10%,#1f2f4f 100%);
-	margin-top: 330px;
-	padding-left: 20px;
+	padding-left: 25px;
 }
 
