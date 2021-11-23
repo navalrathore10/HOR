@@ -7,11 +7,6 @@
 	z-index: 99;
 }
 
-.iframe{
-	width: 90vw;
-	height: 30vh;
-}
-
 .titlehor{
 	font-size: x-large;
 	letter-spacing: 2px;
@@ -27,7 +22,7 @@
 }
 .sect {
 		height: 100vh;
-		width: 100;
+		width: 100vw;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -43,7 +38,8 @@
 }
 
 .sect1{
-	background-image: url("sect1.jpg");
+	height: 100vh;
+	background-image: url("https://images.unsplash.com/photo-1578999935853-4ec5fa6c1f60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1422&q=80");
 }
 
 .logobig{
@@ -52,22 +48,22 @@
 	margin-left: 32.5vw;
 }
 
-#subsect1{
-	display: grid;
+.subsect1{
 	grid-template-columns: 2fr 1fr;
 }
+.subsect2{
+	grid-template-columns: 2fr 1fr;
+}
+
 .sect2{
 	height: 100vh;
 	background-image: url("https://images.unsplash.com/photo-1605014093414-29b156556886?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80");
 }
 
-.subsect2{
-}
 .quote1{
 	word-spacing: 5px;
 	color: floralwhite;
 	letter-spacing: 1px;
-	position: relative;
 	margin-top: 5vh;
 	margin-left: 5vw;
 	margin-right: 5vw;
@@ -79,50 +75,29 @@
 	justify-content: center;
 }
 
+.sidesect1{
+	height: auto;
+}
 .sidesect2{
+	height:auto;
 	display: block;
-}
-.ancbtn{
 	align-items: center;
-	cursor: pointer;
-	font-size: 40px;
-	background-image: linear-gradient(#1f2f4f 0%,#2d4574 50%,#1f2f4f 100%);
-	color: floralwhite;
-	font-family: "Rozha One",serif;
-	width: 250px;
-	height: 80px;
-	box-shadow: inset 0 0 10px goldenrod;
-}
-
-.midbtn{
-	align-items: center;
-	cursor: pointer;
-	font-size: 40px;
-	background-image: linear-gradient(#1f2f4f 0%,#2d4574 50%,#1f2f4f 100%);
-	color: floralwhite;
-	font-family: "Rozha One",serif;
-	width: 250px;
-	height: 80px;
-	box-shadow: inset 0 0 10px goldenrod;
-}
-.modbtn{
-	align-items: center;
-	cursor: pointer;
-	font-size: 40px;
-	background-image: linear-gradient(#1f2f4f 0%,#2d4574 50%,#1f2f4f 100%);
-	color: floralwhite;
-	font-family: "Rozha One",serif;
-	width: 250px;
-	height: 80px;
-	box-shadow: inset 0 0 10px goldenrod;
+	justify-items: center;
 }
 
 #stagesbtn{
+	border-radius: 10vw;
+	align-items: center;
+	cursor: pointer;
+	background-image: linear-gradient(#1f2f4f 0%,#2d4574 50%,#1f2f4f 100%);
+	color: floralwhite;
+	font-family: "Rozha One",serif;
+	box-shadow: inset 0 0 10px goldenrod;
 	margin-top: 4.5vh;
 	display: block;
 	width: 85%;
 	height:20%;
-	font-size: 4vw;
+	font-size: 	4vw;
 }
 
 .footerdark{
@@ -132,3 +107,28 @@
 	padding-left: 25px;
 }
 
+.sect2-card{
+	background-image: linear-gradient(#1f2f4f 0%,#212529 10%,#1f2f4f 100%);
+	color: floralwhite;
+	border-radius: 2vh;
+	padding: 20px;
+	width: auto;
+	box-shadow: inset 0 3px 10px goldenrod;
+}
+.container{
+	height: 100vh;
+}
+.cards{
+	height:auto;
+	display: grid;
+	grid-gap: 20px;
+
+	grid-template-columns: 1fr 1fr 1fr;
+
+}
+.feature{
+	padding: 5px;
+}
+.ss2ss2{
+	display:block;
+}
