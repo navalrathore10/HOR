@@ -7,6 +7,11 @@
 	z-index: 99;
 }
 
+iframe{
+	width: 100%;
+	height: 50%;
+}
+
 .titlehor{
 	font-size: x-large;
 	letter-spacing: 2px;
