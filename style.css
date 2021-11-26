@@ -6,15 +6,22 @@
 	padding-top:3vh;
 	z-index: 99;
 }
-
+.navbar-nav {
+	z-index: 99;
+}
 .titlehor{
 	font-size: x-large;
 	letter-spacing: 2px;
 }
+#playfair{
+	font-family: 'Playfair Display', serif;
+}
+
 #cursive{
 	font-family:"Great Vibes",cursive;
 }
 .dropdown-menu{
+	z-index: 100;
 	background-image: linear-gradient(#1f2f4f 0%,#212529 10%,#1f2f4f 100%);
 }
 .dropdown-item{
@@ -34,7 +41,8 @@
 	width: 100%;
 	background-size: cover;
 	background-image: linear-gradient(#1f2f4f 0%,#212529 10%,#1f2f4f 100%);
-	display: inline-grid;
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
 }
 
 .sect1{
@@ -49,10 +57,11 @@
 }
 
 .subsect1{
-	grid-template-columns: 2fr 1fr;
+	display: grid;
+	grid-template-columns:repeat(auto-fill, minmax(420px,1fr));
 }
 .subsect2{
-	grid-template-columns: 2fr 1fr;
+grid-template-columns:repeat(auto-fill, minmax(420px,1fr));
 }
 
 .sect2{
@@ -70,13 +79,17 @@
 }	
 
 .artline{
-	height: 24vh;
-	width: 69vw;
+	width: 100vw;
 	justify-content: center;
+}
+.artline2{
+	margin-top: 30px;
+	width: 100vw;
 }
 
 .sidesect1{
 	height: auto;
+	grid-column: 1/3;
 }
 .sidesect2{
 	height:auto;
@@ -95,9 +108,10 @@
 	box-shadow: inset 0 0 10px goldenrod;
 	margin-top: 4.5vh;
 	display: block;
-	width: 85%;
+	width: 100%;
 	height:20%;
 	font-size: 	4vw;
+	
 }
 
 .footerdark{
@@ -112,23 +126,27 @@
 	color: floralwhite;
 	border-radius: 2vh;
 	padding: 20px;
-	width: auto;
 	box-shadow: inset 0 3px 10px goldenrod;
 }
-.container{
+.sect2-card:hover {
+	border:1px solid #bbb;
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.card-container{
 	height: 100vh;
-}
-.cards{
-	height:auto;
-	display: grid;
+	align-items: center;
+	display:grid;
 	grid-gap: 20px;
-
-	grid-template-columns: 1fr 1fr 1fr;
-
+	grid-template-columns:repeat(auto-fill,minmax(400px,1fr);
 }
+
 .feature{
 	padding: 5px;
 }
 .ss2ss2{
-	display:block;
+	display: block;
 }
